@@ -21,3 +21,12 @@ converted into XML files using GATE natural language processing software.
 The original and XML files will be available from the Linguistic Data
 Consortium in spring 2017. If you need them before then or cannot access LDC
 for whatever reason, contact Brian Larson.
+
+To use this code, you need directories set up with the structure indicated
+in the code modules, and you need to have the XML data files resident in the
+appropriate spot, again indicated in the code modules. You then run modules
+in the following order:
+Module1.py
+Module2.py
+Module3Biber.py
+Module4BiberStats.py
